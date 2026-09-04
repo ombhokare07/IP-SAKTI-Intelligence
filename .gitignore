@@ -1,0 +1,26 @@
+# Secrets and local environments
+.env
+.env.local
+.venv/
+venv/
+
+# Python caches and test artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Generated Phase-1 data
+data/processed/
+storage/
+chroma_db/
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+.pytest_tmp/
+.pytest_cache/
